@@ -86,4 +86,3 @@ class Consultation:
 
 	def __repr__(self) -> str:
 		return f"Consultation({self.date_heure!r}, {self.patient!r}, {self.medecin})"
-

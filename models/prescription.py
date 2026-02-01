@@ -66,4 +66,3 @@ class PrescriptionKinesitherapie(Prescription):
 
 	def afficher_details(self) -> str:
 		return f"Kinésithérapie: {self.nb_seances} séances, zone: {self.zone}"
-

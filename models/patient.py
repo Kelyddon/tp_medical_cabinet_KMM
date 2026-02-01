@@ -104,4 +104,3 @@ class Patient:
 
 	def __repr__(self) -> str:
 		return f"Patient({self._num_secu}, {self._nom} {self._prenom})"
-
