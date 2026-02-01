@@ -1,0 +1,3 @@
+[2026-02-01T20:04:58.803706] Action effectuée: ajouter_patient
+[2026-02-01T20:05:53.418912] Action effectuée: planifier_consultation
+[2026-02-01T20:06:11.876458] Action effectuée: marquer_realisee

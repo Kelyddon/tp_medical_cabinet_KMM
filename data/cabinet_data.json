@@ -23,6 +23,14 @@
       "date_naissance": "1000-01-01",
       "adresse": "11 rue sdsd",
       "telephone": "010205425"
+    },
+    {
+      "numero_secu": "123123123123129",
+      "nom": "v",
+      "prenom": "v",
+      "date_naissance": "2000-10-02",
+      "adresse": "11 rue sdsd",
+      "telephone": "010205425"
     }
   ],
   "consultations": [
@@ -95,6 +103,16 @@
       "diagnostic": null,
       "prescriptions": [],
       "statut": "planifiée"
+    },
+    {
+      "id": "51cd6324-d13d-4b4e-a7fc-e8fbea88b61d",
+      "patient_num": "123123123123129",
+      "date_heure": "2027-01-01T15:20:00",
+      "medecin": "dr pepsi",
+      "motif": "Nausé",
+      "diagnostic": null,
+      "prescriptions": [],
+      "statut": "réalisée"
     }
   ]
 }

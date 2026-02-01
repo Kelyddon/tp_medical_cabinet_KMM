@@ -1,6 +1,6 @@
 import re
 from datetime import date
-
+from __future__ import annotations
 # Exceptions personnalisées
 
 class InvalidSecurityNumberError(Exception):
@@ -32,3 +32,19 @@ def calculate_age(birth_date: date) -> int:
     return today.year - birth_date.year - (
         (today.month, today.day) < (birth_date.month, birth_date.day)
     )
+
+
+class PatientNotFoundError(Exception):
+    """Patient introuvable."""
+
+
+class ConsultationNotFoundError(Exception):
+    """Consultation introuvable."""
+
+
+class InvalidSecurityNumberError(Exception):
+    """Numéro de sécurité sociale invalide."""
+
+
+class InvalidConsultationStatusError(Exception):
+    """Statut de consultation invalide pour l'opération demandée."""
